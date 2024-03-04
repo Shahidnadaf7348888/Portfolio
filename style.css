@@ -37,7 +37,7 @@ span{
 }
 /* home text */
 .backimg{
-    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.2)),url(Image/dark.jpg);
+    background-image: url('Image/pIC02.jpg');
     color: white;
     background-size: cover;
 
@@ -238,4 +238,31 @@ span{
         left: 0%;
     }
 }
+/* CSS for typing animation */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 30%; }
+}
 
+.typing-animation1 {
+  display: inline-block;
+  overflow: hidden;
+  border-right: .10rem solid crimson; /* Adjust the color and width as needed */
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 2s steps(20, end), blink-caret .75s step-end infinite;
+}
+.typing-animation2 {
+  display: inline-block;
+  overflow: hidden;
+  border-right: .10rem solid crimson; /* Adjust the color and width as needed */
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 2s steps(20, end), blink-caret .75s step-end infinite;
+}
+
+/* Blinking cursor animation */
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  40% { border-color: crimson; }
+}
