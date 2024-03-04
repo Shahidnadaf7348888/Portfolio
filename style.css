@@ -53,12 +53,7 @@ span{
     background-color: black; 
     color: white;
 }
- .rowHover :hover{
-    background-color: lightslategrey;
-    transition: 0.3s;
-	transform: scale(1.01);
-    cursor: pointer;
-}
+
 .ico{
     color: crimson;
     font-size: 4rem;
