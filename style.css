@@ -5,9 +5,9 @@
 body{
     scroll-behavior: smooth;
 }
-.btn{
+/* .btn{
     box-shadow: .8px 0.8px 10px crimson;
-}
+} */
 /* navbar  */
 .navbaritem ul li {
     margin: 0px 2.5rem;
@@ -46,7 +46,11 @@ span{
 .msl{
     font-size: 4rem;
 }
+/* Project   */
 
+#imm{
+  object-fit: cover;
+}
  /* my service */
 
 #myseric{
